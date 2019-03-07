@@ -56,6 +56,7 @@ $(document).ready(function(){
         center: true,
         items:2,
         loop:true,
+        autoplay: true,
         margin: 100,
         dots: true,
         responsive: {
