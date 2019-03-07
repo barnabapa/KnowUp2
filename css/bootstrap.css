@@ -2409,12 +2409,12 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: white;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 0.25rem;
 }
 
@@ -2431,7 +2431,7 @@ tbody.collapse.show {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: normal;
-  color: #212529;
+  color: white;
   text-align: inherit;
   white-space: nowrap;
   background: none;
@@ -2439,20 +2439,17 @@ tbody.collapse.show {
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #16181b;
+  color: #e66686;
   text-decoration: none;
-  background-color: #f8f9fa;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007bff;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #868e96;
-  background-color: transparent;
 }
 
 .show > a {
