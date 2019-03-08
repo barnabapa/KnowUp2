@@ -36,34 +36,56 @@
 	<script async defer src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v3.2"></script>
 	<div class="main-wrapper-first">
 		<header>
-			<div class="container">
-				<div class="header-wrap">
-					<div class="header-top d-flex justify-content-between align-items-center">
-						<div class="logo">
-							<a href="index.html"><img src="img/logo.png" alt="" width="20%"></a>
-						</div>
-						<div class="main-menubar d-flex align-items-center justify-content-center">
-							<nav class="hide d-inline-flex">
-								<a href="index.html">Strona domowa</a>
-								<a href="generic.html">Opis działalności</a>
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-								 aria-haspopup="true" aria-expanded="false">
-									Projekty
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="./marketing.html">Marketing</a>
-									<a class="dropdown-item" href="./ksiegowosc.html">Księgowość</a>
-									<a class="dropdown-item" href="./handlowiec.html">Nowoczesny handlowiec</a>
-									<a class="dropdown-item" href="./barber.html">Barber</a>
-									<a class="dropdown-item" href="./bok.html">Biuro Obsługi Klienta</a>
-									<a class="dropdown-item" href="./excel.html">Obsługa programu Excel</a>
-								</div>
-							</nav>
-							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
-						</div>
-					</div>
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<!-- Image -->
+				<a class="navbar-brand" href="./index.html">
+					<img src="img/logo.png" width="20%" alt="">
+					Start!
+				</a>
+
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="./index.html">Strona domowa</a>
+						</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="./generic.html">Opis działalności</a>
+						</li>
+						<!-- Dropdown 1-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								Szkolenia komercyjne
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./excel.html">Excel - średnio-zaawansowany</a>
+								<a class="dropdown-item" href="./javascript.html">JavaScript od podstaw</a>
+							</div>
+						</li>
+						<!-- Dropdown 2-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								Szkolenia sponsorowane
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./marketing.html">Marketing</a>
+								<a class="dropdown-item" href="./ksiegowosc.html">Księgowość</a>
+								<a class="dropdown-item" href="./handlowiec.html">Nowoczesny handlowiec</a>
+								<a class="dropdown-item" href="./barber.html">Barber</a>
+								<a class="dropdown-item" href="./bok.html">Biuro Obsługi Klienta</a>
+								<a class="dropdown-item" href="./excel.html">Obsługa programu Excel</a>
+							</div>
+						</li>
+					</ul>
 				</div>
-			</div>
+
+
+			</nav>
 		</header>
 		<div class="banner-area">
 			<div class="container">
@@ -86,7 +108,7 @@
 		<section class="featured-area" id="featured-area">
 			<div class="container">
 				<div class="section-title text-center">
-					<h3 class="text-white"><b>O nas</b></h3>
+					<h3 class="text-white"><b>Oferta</b></h3>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
@@ -95,8 +117,9 @@
 								<span class="lnr lnr-sun"></span>
 							</div>
 							<div class="desc">
-								<h6 class="title text-uppercase">Szkolenia językowe</h6>
-								<p>Dla wszystkich, którzy ukończyli 25 lat i pracują, lub są właścicielami w MŚP.</p>
+								<h6 class="title text-uppercase">Szkolenia dla firm</h6>
+								<p>Oferujemy szkolenia z szerokiego zakresu umiejętności. W naszej ofercie znajdziecie Państwo zarówno kursy
+									skierowane do pracowników administracyjnych, jak również fryzjerów.</p>
 							</div>
 						</div>
 					</div>
@@ -106,9 +129,12 @@
 								<span class="lnr lnr-code"></span>
 							</div>
 							<div class="desc">
-								<h6 class="title text-uppercase">Szkolenia komputerowe</h6>
-								<p>Over 92% of computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall
-									utility </p>
+								<h6 class="title text-uppercase">Szkolenia indywidualne</h6>
+								<p>
+									Dla tych z Państwa, którzy oczekują szkolenia ze szczególnego zakresu wiedzy, organizujemy indywidualny tok
+									kursu.
+									Szczgóły usługi dopasowywane są do indywidualnych potrzeb.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -118,17 +144,20 @@
 								<span class="lnr lnr-clock"></span>
 							</div>
 							<div class="desc">
-								<h6 class="title text-uppercase">Szkolenia z przedsiębioroczości</h6>
-								<p>If you own an Iphone, you’ve probably already worked out how much fun it is to use it to watch movies-it has
-									that nice big screen</p>
+								<h6 class="title text-uppercase">Środki dla designarów i startupowców</h6>
+								<p>
+									Posiadamy doświadczenie w pozyskiwaniu środków z funduszy publicznych. Wiemy, gdzie szukać i co zrobić, aby
+									rozwijać najlepsze pomysły
+									Dzielenie się tą wiedzą zawiera się w naszej ofercie.
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row mt-4f">
 					<div class="col-md-12 d-flex align-items-center justify-content-center">
-						<a href="./generic.html" class="genric-btn primary e-large hover d-inline-flex align-items-center">
-							<span class="mr-10">Dowiedz się więcej</span>
+						<a href="#amazing-works-area" class="genric-btn primary e-large hover d-inline-flex align-items-center">
+							<span class="mr-10">Sprawdź</span>
 							<span class="lnr lnr-arrow-right"></span>
 						</a>
 					</div>
@@ -149,11 +178,16 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="story-box">
-							<h6 class="text-uppercase">Szkolenia dedykowane Twoim pracownikom</h6>
-							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and the power of
-								globalization. Societies are becoming more inter-connected. Thoughts from different</p>
-							<a href="#" class="primary-btn hover d-inline-flex align-items-center">
-								<span class="mr-10">Get Started</span>
+							<h6 class="text-uppercase">O nas</h6>
+							<p>
+								Wspieramy edukację oraz poszerzanie horyzontów. <br>
+								Aktywnie współpracujemy z wieloma podmiotami, m. in. z Towarzystwem Edukacyjnym “Wiedza Powszechna”, Polską
+								Akademią Nauk i IKN. <br>
+								 Zrzeszamy nauczycieli, wykładowców, pracowników naukowych, aby wspólnie z Wami dzielić się
+								wiedzą.
+							</p>
+							<a href="./generic.html" class="primary-btn hover d-inline-flex align-items-center">
+								<span class="mr-10">Dowiedz się więej</span>
 								<span class="lnr lnr-arrow-right"></span>
 							</a>
 						</div>
@@ -165,12 +199,12 @@
 		<!-- Start Amazing Works Area -->
 	</div>
 	<div class="main-wrapper">
-		<section class="amazing-works-area">
+		<section class="amazing-works-area" id="amazing-works-area">
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
 					<div class="section-title text-center">
-						<h3>Dotychczasowe projekty</h3>
-						<span class="text-uppercase">Re-imagining the way</span>
+						<h3>Aktualna oferta szkoleniowa</h3>
+						<span class="text-uppercase">Kliknij w zdjęcie, aby dowiedzieć się więcej</span>
 					</div>
 				</div>
 			</div>
@@ -181,7 +215,10 @@
 					</a>
 					<div class="caption text-center">
 						<h6 class="text-uppercase">Program Excel - średnio-zaawansowany</h6>
-						<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to</p>
+						<p>
+							Bez względu na to, czy jesteś początkującym bądź średnio-zaawansowanym użytkownikiem Excela,
+							nauczymy Cię wykonywać Twoje codzienne obowiązki szybciej.
+						</p>
 					</div>
 				</div>
 				<div class="item">
@@ -240,8 +277,8 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
 						<div class="section-title text-center">
-							<h3 class="text-white">Nasze najlepsze, zakończone projekty</h3>
-							<span class="text-white text-uppercase">Z myślą o Was</span>
+							<h3 class="text-white">Zakończone projekty</h3>
+							<span class="text-white text-uppercase">to nasze doświadczenie</span>
 						</div>
 					</div>
 				</div>
@@ -457,7 +494,7 @@
 							<div class="desc">
 								<h6 class="title text-uppercase">Adres e-mail</h6>
 								<div class="contact">
-									<a href="mailto:tewpue@gmail.com">tewpue@gmail.com</a> <br>
+									<a href="mailto:tewpue@gmail.com">knowupkfs@gmail.com</a> <br>
 								</div>
 							</div>
 						</div>

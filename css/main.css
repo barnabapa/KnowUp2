@@ -1040,9 +1040,9 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid transparent;
 }
 
-.nav-link {
+/* .nav-link {
   padding: 0;
-}
+} */
 
 .genric-btn.link:hover {
   color: #222222;
@@ -1907,16 +1907,16 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-nav {
+/* nav {
   margin-right: 70px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   transform-origin: 100% 50%;
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   nav {
     margin-right: 0;
     position: absolute;
@@ -1924,23 +1924,24 @@ nav {
     top: 50px;
     text-align: right;
   }
-}
+} 
+*/
 
-nav.hide {
+/* nav.hide {
   transform: scale(0);
-}
+} */
 
-nav a {
+/* nav a {
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.7);
   margin: 0 25px;
-}
+} */
 
-nav a:hover {
+/* nav a:hover {
   color: white;
-}
+} */
 
 body {
   background-attachment: fixed;
@@ -1969,7 +1970,7 @@ body:after {
 .main-wrapper-first {
   width: 68.75%;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 3.5rem;
 }
 
 @media (min-width: 1200px) {
