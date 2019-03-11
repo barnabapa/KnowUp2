@@ -33,37 +33,56 @@
 <body>
 	<div id="fb-root"></div>
 	<script async defer src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v3.2"></script>
-	<a id="button-plus"></a>
 	<div class="main-wrapper-first">
 		<header>
-			<div class="container">
-				<div class="header-wrap">
-					<div class="header-top d-flex justify-content-between align-items-center">
-						<div class="logo">
-							<a href="index.html"><img src="img/logo.png" alt="" width="20%"></a>
-						</div>
-						<div class="main-menubar d-flex align-items-center justify-content-center">
-							<nav class="hide d-inline-flex">
-								<a href="index.html">Strona domowa</a>
-								<a href="generic.html">Opis działalności</a>
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-								 aria-haspopup="true" aria-expanded="false">
-									Projekty
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="./marketing.html">Marketing</a>
-									<a class="dropdown-item" href="./ksiegowosc.html">Księgowość</a>
-									<a class="dropdown-item" href="./handlowiec.html">Nowoczesny handlowiec</a>
-									<a class="dropdown-item" href="./barber.html">Barber</a>
-									<a class="dropdown-item" href="./bok.html">Biuro Obsługi Klienta</a>
-									<a class="dropdown-item" href="./excel.html">Obsługa programu Excel</a>
-								</div>
-							</nav>
-							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
-						</div>
-					</div>
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<!-- Image -->
+				<a class="navbar-brand" href="./index.html">
+					<img src="img/logo.png" width="20%" alt="">
+					Start!
+				</a>
+
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<!-- <li class="nav-item">
+									<a class="nav-link" href="./index.html">Strona domowa</a>
+								</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="./generic.html">Opis działalności</a>
+						</li>
+						<!-- Dropdown 1-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								Szkolenia komercyjne
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./excel.html">Excel - średnio-zaawansowany</a>
+								<a class="dropdown-item" href="./javascript.html">JavaScript od podstaw</a>
+							</div>
+						</li>
+						<!-- Dropdown 2-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								Szkolenia sponsorowane
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./marketing.html">Marketing</a>
+								<a class="dropdown-item" href="./ksiegowosc.html">Księgowość</a>
+								<a class="dropdown-item" href="./handlowiec.html">Nowoczesny handlowiec</a>
+								<a class="dropdown-item" href="./barber.html">Barber</a>
+								<a class="dropdown-item" href="./bok.html">Biuro Obsługi Klienta</a>
+								<a class="dropdown-item" href="./excel.html">Obsługa programu Excel</a>
+							</div>
+						</li>
+					</ul>
 				</div>
-			</div>
+			</nav>
 		</header>
 		<div class="banner-area">
 			<div class="container">
@@ -122,59 +141,133 @@
 		<!-- About Generic Start -->
 		<section class="about-generic-area">
 			<div class="container border-top-generic">
-				<h3 class="about-title mb-70">Elaboration about Generic Page</h3>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="img-text">
-							<img src="img/a.jpg" alt="" class="img-fluid float-left mr-20 mb-20">
-							<p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to
-								transfer money to them through any US bank or payment system. As a result of this law, most of the popular
-								online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino
-								players found themselves being chased by the Federal government. But, after a fortnight, the online casino
-								industry came up with a solution and new online casinos started taking root. These began to operate under a
-								different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major
-								part of this was enlisting electronic banking systems that would accept this new clarification and start doing
-								business with me. Listed in this article are the electronic banking systems that accept players from the United
-								States that wish to play in online casinos.</p>
-						</div>
-					</div>
-					<div class="col-lg-12">
-						<p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to
-							transfer money to them through any US bank or payment system. As a result of this law, most of the popular
-							online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino
-							players found themselves being chased by the Federal government. But, after a fortnight, the online casino
-							industry came up with a solution and new online casinos started taking root. These began to operate under a
-							different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major
-							part of this was enlisting electronic banking systems that would accept this new clarification and start doing
-							business with me. Listed in this article are the electronic banking systems that accept players from the United
-							States that wish to play in online casinos.</p>
-					</div>
-					<div class="col-lg-12">
-						<p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to
-							transfer money to them through any US bank or payment system. As a result of this law, most of the popular
-							online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino
-							players found themselves being chased by the Federal government. But, after a fortnight, the online casino
-							industry came up with a solution and new online casinos started taking root. These began to operate under a
-							different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major
-							part of this was enlisting electronic banking systems that would accept this new clarification and start doing
-							business with me. Listed in this article are the electronic banking systems that accept players from the United
-							States that wish to play in online casinos.</p>
-					</div>
-					<div class="col-md-12">
-						<div class="img-text">
-							<img src="img/a2.jpg" alt="" class="img-fluid float-left mr-20">
-							<p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to
-								transfer money to them through any US bank or payment system. As a result of this law, most of the popular
-								online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino
-								players found themselves being chased by the Federal government. But, after a fortnight, the online casino
-								industry came up with a solution and new online casinos started taking root. These began to operate under a
-								different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major
-								part of this was enlisting electronic banking systems that would accept this new clarification and start doing
-								business with me. Listed in this article are the electronic banking systems that accept players from the United
-								States that wish to play in online casinos.</p>
-						</div>
-					</div>
-				</div>
+				<p>
+						Informatyczna obsługa biura 
+						Podstawy obsługi komputera i Internetu
+						Obsługa poczty elektronicznej
+						Google Documents – tworzenie, edycja i współdzielenie dokumentów
+						Podstawy redagowania i formatowania pism
+						Tworzenie korespondencji seryjnej
+						Tabele – tworzenie, formatowanie, edycja
+						Wykorzystanie arkusza kalkulacyjnego w działalności firmy
+						Gromadzenie danych, sortowanie i obliczanie danych w arkuszu
+						Współpraca arkusza z edytorem tekstu
+						Drukowanie dokumentów
+						Tworzenie materiałów informacyjnych
+						2. Informatyczna obsługa biura – system operacyjny
+						3. Informatyczna obsługa biura – edytor tekstu 
+						4. Informatyczna obsługa biura – arkusz kalkulacyjny – 
+						5. Organizacja pracy biurowej 
+						Podstawy pracy biurowej
+						Organizacja pracy w biurze
+						Informacja w biurze
+						Obsługa interesantów/klientów
+						Organizacja pracy sekretariatu
+						Organizacja spotkań służbowych
+						Środki techniczne pracy biurowej
+						Savoir vivre w pracy biurowej
+						6. Korespondencja biurowa 
+						Dokumentacja biurowa
+						Zasady redagowania pism
+						Korespondencja osobowa
+						Korespondencja handlowa, finansowa, ubezpieczeniowa, transportowa
+						Korespondencja w sprawach administracyjnych
+						Zasady sporządzania protokołów, sprawozdań, notatek służbowych
+						Dokumentacja zebrań i szkoleń
+						
+						
+						Księgowość (podstawy)
+						
+						Program kursy podstawy księgowości
+						Rachunkowość jako system ewidencji gospodarczej
+						Podmioty zobligowane do stosowania przepisów ustawy o rachunkowości
+						Zasady rachunkowości
+						Charakterystyka aktywów
+						Charakterystyka pasywów
+						Konta podział i funkcjonowanie
+						Typy operacji gospodarczych
+						Dokumentacja operacji gospodarczych
+						Środki trwałe, klasyfikacja, ewidencja, umorzenie, amortyzacja
+						Układ rodzajowy kosztów
+						Podatek VAT istota, regulacje prawne
+						Ogólne zasady VAT zawarte w przepisach prawnych
+						Zasady wystawiania dokumentów VAT
+						Rejestry oraz deklaracje VAT
+						Rozrachunki podmiotów krajowych
+						Podatek dochodowy od osób prawnych, zakres podmiotowy, przychody opodatkowane oraz zwolnione, koszty uzyskania przychodów, podstawa opodatkowania
+						Podatek dochodowy od osób fizycznych, zakres podmiotowy, przychody opodatkowane oraz zwolnione, koszty uzyskania przychodów, podstawa opodatkowania
+						Rozliczenia z pracownikami oraz budżetem
+						Sporządzanie rozliczeń podatkowych
+						
+						Podatek od towarów i usług
+						Regulacje prawne (ustawa, akty wykonawcze, dyrektywa)
+						Zakres przedmiotowy i miejsce świadczenia czynności
+						Zakres podmiotowy...
+						Faktura VAT
+						Stawki podatku VAT
+						Zasady obliczania podatku
+						Sposób zapłaty podatku – deklaracje podatkowe...
+						Podatek dochodowy od osób fizycznych
+						Zasady rozliczania przychodów ( moment powstania przychodu należnego, zaliczki, kursy walut, przychody zwolnione z podatku dochodowego)
+						Koszty uzyskania przychodów
+						Zasady rozliczania wynagrodzeń z tytułu umowy o pracę oraz umów cywilnoprawnych (składki na ubezpieczenia społeczne i zdrowotne, zaliczki na podatek dochodowy)
+						Zasady odliczania darowizn od dochodu...
+						Podatek dochodowy od osób prawnych
+						Zasady rozliczania przychodów (moment powstania przychodu należnego, zaliczki, kursy walut, przychody zwolnione z podatku dochodowego)
+						Koszty uzyskania przychodów (zasady dokumentowania, odszkodowania i kary umowne, wydatki na rzecz pracowników, świadczenia na rzecz członków zarządu, rady nadzorczej, komisji rewizyjnych, akcjonariuszy, udziałowców)
+						Działalność marketingowa, sponsoring...
+						Książka przychodów i rozchodów
+						Regulacje prawne
+						Struktura księgi podatkowej
+						Dowody wewnętrzne
+						Ordynacja podatkowa
+						Zasady postępowania podatkowego
+						Akty prawne wydawane przez organy podatkowe
+						Postępowanie w sprawie zmiany decyzji ostatecznych (stwierdzenie nieważności decyzji, wznowienie postępowania)
+						Postępowanie w sprawie zaległości podatkowych (zasady naliczania odsetek za zwłokę, zawieszenie naliczania odsetek)...
+						Podstawy rachunkowości
+						Funkcje, cele, zasady i cechy rachunkowości
+						Podstawy prawne rachunkowości (ustawa, akty wykonawcze, dyrektywa)
+						Międzynarodowe regulacje prawne w zakresie rachunkowości...
+						Ewidencja środków trwałych oraz wartości niematerialnych i prawnych
+						Pojęcie i klasyfikacja środka trwałego oraz wartości niematerialnych i prawnych
+						Wycena i ewidencja środków trwałych oraz wartości niematerialnych i prawnych
+						Amortyzacja środków trwałych oraz wartości niematerialnych i prawnych (stawki, metody, ustalanie wartości końcowej, weryfikacja stosowanych szacunków amortyzacyjnych...
+						Ewidencja środków pieniężnych
+						Pojęcie i klasyfikacja aktywów pieniężnych
+						Pojęcie i zakres inwestycji krótkoterminowych i długoterminowych
+						Zasady obrotu gotówkowego i bezgotówkowego oraz jego dokumentowanie i ewidencja...
+						Ewidencja rozrachunków
+						Klasyfikacja, wycena, ewidencja rozrachunków
+						Rozrachunki z dostawcami i odbiorcami krajowymi
+						Rozrachunki z dostawcami i odbiorcami zagranicznymi...
+						Ewidencja kapitałów własnych
+						Klasyfikacja, pojęcie i ewidencja kapitałów własny
+						Fundusze własne w różnych jednostkach gospodarczych
+						Kapitał zapasowy...
+						Ewidencja materiałów i towarów
+						Ewidencja i wycena materiałów i towarów
+						Ewidencja zakupu materiałów i towarów (WNT, WDT, export, import)
+						Rozchód materiałów – ewidencja i rozliczenie...
+						Ewidencja kosztów
+						Ewidencja kosztów w układzie rodzajowym
+						Ewidencja kosztów w układzie kalkulacyjnym
+						Równoległe księgowanie kosztów rodzajowych i kalkulacyjnych...
+						Wynik finansowy i zamknięcie ksiąg. Inwentaryzacja
+						Ustalanie wyniku dochodu bilansowego i podatkowego
+						Wynik finansowy brutto i jego obciążenia
+						Wynik finansowy netto i jego rozliczenie...
+						Sprawozdanie finansowe
+						Jednostki zobowiązane do składania sprawozdań
+						Jednostki uprawnione do otrzymywania sprawozdań
+						Terminy i tematyka...
+						PROGRAM ZAJĘĆ PRAKTYCZNYCH:
+						(Warsztaty praktyczne z programem Symfonia)
+						Zasady obsługi systemu finansowo-księgowego – praca w programie Symfonia Finanse i Księgowość Premium
+						Rodzaje podatków, opłat, przypisanie do poszczególnych grup klasyfikacyjnych
+						Omówienie wzorów deklaracji VAT, sporządzenie miesięcznej deklaracji VAT... 
+						
+				</p>
 			</div>
 		</section>
 		<!-- End Generic Start -->
@@ -235,7 +328,7 @@
 				</div>
 				<div class="row justify-content-center align-items-center mt-5">
 					<div class="col-lg-10">
-						<div class="section-title text-center ">
+						<div class="section-title text-center mt-4">
 							<span class="text-uppercase">...lub obserwuj nasz <b>fanpage</b></span>
 						</div>
 						<div class="d-flex justify-content-center width=" 50%">
@@ -256,11 +349,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<div class="single-widget d-flex flex-wrap justify-content-between">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="lnr lnr-pushpin"></span>
-							</div>
-							<div class="desc">
+						<div class="single-widget d-flex flex-wrap justify-content-center align-items-top">
+							<a href="https://goo.gl/maps/dDMYQkK9HRo">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="lnr lnr-pushpin"></span>
+								</div>
+							</a>
+							<div class="desc text-center">
 								<h6 class="title text-uppercase">Adres siedziby</h6>
 								<p>Grunwaldzka 137,
 									<br>II piętro, 04-domofon
@@ -270,24 +365,28 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="single-widget d-flex flex-wrap justify-content-between">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="lnr lnr-earth"></span>
-							</div>
-							<div class="desc">
+						<div class="single-widget d-flex flex-wrap justify-content-center align-items-top">
+							<a href="mailto:tewpue@gmail.com">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="lnr lnr-earth"></span>
+								</div>
+							</a>
+							<div class="desc text-center">
 								<h6 class="title text-uppercase">Adres e-mail</h6>
 								<div class="contact">
-									<a href="mailto:tewpue@gmail.com">tewpue@gmail.com</a> <br>
+									<a href="mailto:tewpue@gmail.com">knowupkfs@gmail.com</a> <br>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="single-widget d-flex flex-wrap justify-content-between">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="lnr lnr-phone"></span>
-							</div>
-							<div class="desc">
+						<div class="single-widget d-flex flex-wrap justify-content-center align-items-top">
+							<a href="tel:+48572424323">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="lnr lnr-phone"></span>
+								</div>
+							</a>
+							<div class="desc text-center">
 								<h6 class="title text-uppercase">Numer telefonu</h6>
 								<div class="contact">
 									<a href="tel:+48572424323">+48 572 424 323</a> <br>
@@ -303,15 +402,12 @@
 		<footer>
 			<div class="container">
 				<div class="footer-content d-flex justify-content-between align-items-center flex-wrap">
-					<div class="copy-right-text">
-						Copyright &copy; 2017 | All rights reserved to Dinomuz inc. This template is made
-						with <i class="fa fa-heart-o" aria-hidden="true"></i> by
-						<a href="https://colorlib.com" target="_blank">Colorlib</a>
-						<p>Website created by Hubert Kołcz, Copyright 2019</p>
-					</div>
+					<div class="copy-right-text">Copyright &copy; 2017 | All rights reserved to Dinomuz inc. This template is made
+						with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
+					<div class="copy-right-text"> Website created by Hubert Kołcz</div>
 					<div class="footer-social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.facebook.com/KnowUpTalks/"><i class="fa fa-facebook"></i></a>
+						<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
 					</div>
 				</div>
 			</div>

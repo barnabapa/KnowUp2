@@ -35,34 +35,54 @@
 	<script async defer src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v3.2"></script>
 	<div class="main-wrapper-first">
 		<header>
-			<div class="container">
-				<div class="header-wrap">
-					<div class="header-top d-flex justify-content-between align-items-center">
-						<div class="logo">
-							<a href="index.html"><img src="img/logo.png" alt="" width="20%"></a>
-						</div>
-						<div class="main-menubar d-flex align-items-center justify-content-center">
-							<nav class="hide d-inline-flex">
-								<a href="index.html">Strona domowa</a>
-								<a href="generic.html">Opis działalności</a>
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-								 aria-haspopup="true" aria-expanded="false">
-									Projekty
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="./marketing.html">Marketing</a>
-									<a class="dropdown-item" href="./ksiegowosc.html">Księgowość</a>
-									<a class="dropdown-item" href="./handlowiec.html">Nowoczesny handlowiec</a>
-									<a class="dropdown-item" href="./barber.html">Barber</a>
-									<a class="dropdown-item" href="./bok.html">Biuro Obsługi Klienta</a>
-									<a class="dropdown-item" href="./excel.html">Obsługa programu Excel</a>
-								</div>
-							</nav>
-							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
-						</div>
-					</div>
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<!-- Image -->
+				<a class="navbar-brand" href="./index.html">
+					<img src="img/logo.png" width="20%" alt="">
+					Start!
+				</a>
+
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<!-- <li class="nav-item">
+									<a class="nav-link" href="./index.html">Strona domowa</a>
+								</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="./generic.html">Opis działalności</a>
+						</li>
+						<!-- Dropdown 1-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								Szkolenia komercyjne
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./excel.html">Excel - średnio-zaawansowany</a>
+								<a class="dropdown-item" href="./javascript.html">JavaScript od podstaw</a>
+							</div>
+						</li>
+						<!-- Dropdown 2-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								Szkolenia sponsorowane
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./marketing.html">Marketing</a>
+								<a class="dropdown-item" href="./ksiegowosc.html">Księgowość</a>
+								<a class="dropdown-item" href="./handlowiec.html">Nowoczesny handlowiec</a>
+								<a class="dropdown-item" href="./barber.html">Barber</a>
+								<a class="dropdown-item" href="./bok.html">Biuro Obsługi Klienta</a>
+								<a class="dropdown-item" href="./excel.html">Obsługa programu Excel</a>
+							</div>
+						</li>
+					</ul>
 				</div>
-			</div>
+			</nav>
 		</header>
 		<div class="banner-area">
 			<div class="container">
@@ -121,10 +141,11 @@
 		<!-- About Generic Start -->
 		<section class="about-generic-area">
 			<div class="container border-top-generic">
-				<h6 class="about-title mb-70 text-center">Stworzyliśmy organizację KnowUp aby wspierać edukację, efektywną naukę, poszerzanie horyzontów. Aktywnie
-						współpracujemy z wieloma podmiotami, między innymi z Towarzystwem Edukacyjnym “Wiedza Powszechna”, Polską
-						Akademią Nauk i IKN. Zrzeszamy nauczycieli, wykładowców, pracowników naukowych, aby wspólnie z Wami dzielić się
-						wiedzą.
+				<h6 class="about-title mb-70 text-center">Stworzyliśmy organizację KnowUp aby wspierać edukację, efektywną naukę,
+					poszerzanie horyzontów. Aktywnie
+					współpracujemy z wieloma podmiotami, między innymi z Towarzystwem Edukacyjnym “Wiedza Powszechna”, Polską
+					Akademią Nauk i IKN. Zrzeszamy nauczycieli, wykładowców, pracowników naukowych, aby wspólnie z Wami dzielić się
+					wiedzą.
 				</h6>
 				<div class="row">
 					<div class="col-md-12">
@@ -246,7 +267,7 @@
 				</div>
 				<div class="row justify-content-center align-items-center mt-5">
 					<div class="col-lg-10">
-						<div class="section-title text-center ">
+						<div class="section-title text-center mt-4">
 							<span class="text-uppercase">...lub obserwuj nasz <b>fanpage</b></span>
 						</div>
 						<div class="d-flex justify-content-center width=" 50%">
@@ -267,11 +288,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<div class="single-widget d-flex flex-wrap justify-content-between">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="lnr lnr-pushpin"></span>
-							</div>
-							<div class="desc">
+						<div class="single-widget d-flex flex-wrap justify-content-center align-items-top">
+							<a href="https://goo.gl/maps/dDMYQkK9HRo">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="lnr lnr-pushpin"></span>
+								</div>
+							</a>
+							<div class="desc text-center">
 								<h6 class="title text-uppercase">Adres siedziby</h6>
 								<p>Grunwaldzka 137,
 									<br>II piętro, 04-domofon
@@ -281,24 +304,28 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="single-widget d-flex flex-wrap justify-content-between">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="lnr lnr-earth"></span>
-							</div>
-							<div class="desc">
+						<div class="single-widget d-flex flex-wrap justify-content-center align-items-top">
+							<a href="mailto:tewpue@gmail.com">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="lnr lnr-earth"></span>
+								</div>
+							</a>
+							<div class="desc text-center">
 								<h6 class="title text-uppercase">Adres e-mail</h6>
 								<div class="contact">
-									<a href="mailto:tewpue@gmail.com">tewpue@gmail.com</a> <br>
+									<a href="mailto:tewpue@gmail.com">knowupkfs@gmail.com</a> <br>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="single-widget d-flex flex-wrap justify-content-between">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="lnr lnr-phone"></span>
-							</div>
-							<div class="desc">
+						<div class="single-widget d-flex flex-wrap justify-content-center align-items-top">
+							<a href="tel:+48572424323">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="lnr lnr-phone"></span>
+								</div>
+							</a>
+							<div class="desc text-center">
 								<h6 class="title text-uppercase">Numer telefonu</h6>
 								<div class="contact">
 									<a href="tel:+48572424323">+48 572 424 323</a> <br>
@@ -314,15 +341,12 @@
 		<footer>
 			<div class="container">
 				<div class="footer-content d-flex justify-content-between align-items-center flex-wrap">
-					<div class="copy-right-text">
-						Copyright &copy; 2017 | All rights reserved to Dinomuz inc. This template is made
-						with <i class="fa fa-heart-o" aria-hidden="true"></i> by
-						<a href="https://colorlib.com" target="_blank">Colorlib</a>
-						<p>Website created by Hubert Kołcz, Copyright 2019</p>
-					</div>
+					<div class="copy-right-text">Copyright &copy; 2017 | All rights reserved to Dinomuz inc. This template is made
+						with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
+					<div class="copy-right-text"> Website created by Hubert Kołcz</div>
 					<div class="footer-social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.facebook.com/KnowUpTalks/"><i class="fa fa-facebook"></i></a>
+						<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
 					</div>
 				</div>
 			</div>
