@@ -2571,6 +2571,11 @@ footer .copy-right-text a {
   margin-bottom: 20px;
 }
 
+.about-generic-area li {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
 .white-bg {
   background: #fff;
 }
